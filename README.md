@@ -16,6 +16,7 @@ Voici ce qu’il reste à faire pour ce projet, avec un calendrier suffisamment 
 
 ### Court terme
 
+- Ajouter une couverture.
 - Réintégrer les résultats ePub 2 au kit (même si déprécié).
 - Compléter ARIA + les inflections `epub:type`.
 - Ajouter des contenus SVG, MathML, etc. (tout ce qui se trouve dans les specs EPUB 3, en somme).
