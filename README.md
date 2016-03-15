@@ -6,7 +6,7 @@ Ce kit est loin d’être complet, il constitue une base sur laquelle beaucoup d
 
 ## Licence
 
-Ce kit est placé sous licence [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/deed.fr). En d’autres termes, c’est comme si nous transférions ce kit dans le domaine public.
+Ce kit est placé sous licence [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/deed.fr). En d’autres termes, c’est comme si nous le transférions dans le domaine public.
 
 ## TODO
 
@@ -23,7 +23,7 @@ Voici ce qu’il reste à faire pour ce projet, avec un calendrier suffisamment 
 
 ### Moyen terme
 
-- Collecter les résultats – il va m’être difficile de le faire tout seul cette fois, comme la dernière fois #JustSayin.
+- Collecter et présenter les résultats.
 - Revoir les textes.
 - Mettre à jour en [EPUB 3.1](http://www.idpf.org/epub/31/spec/epub-changes.html) (metadata, attributs ARIA role, etc.).
 - Établir une liste de bonnes pratiques.
