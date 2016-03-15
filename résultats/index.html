@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel='stylesheet' href='maquillage.css'>
+
+	<title>Tableau de l’état du support de Text to speech en français</title>
+	
+</head>
+
+<body>
+
+
+
+ <section>
+
+<h2>Tableau général</h2>
+<table>
+
+	<colgroup class="lecteurs"><col/><col/></colgroup><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/>
+<thead>
+<tr><th>Plateforme</th><th>App</th><th>Remarques</th><th>Titres (h1, h2…)</th><th>Emphase</th><th>Liste</th><th>Citation (bloc)</th><th>Texte préformaté</th><th>Texte alt (img)</th><th>Texte alt (display)</th><th>Texte alt (visibility)</th><th>Texte alt (clip)</th><th>Liste définitions</th><th>code</th><th>Langue étrangère</th><th>Abbréviation</th><th>Coupure (hr)</th><th>Tableaux</th><th>Texte barré (del)</th><th>Texte inséré (ins)</th><th>Titre en image</th><th>Titre en chiffres romains</th><th>Attribut Title</th></tr>
+	</thead>
+	<tbody>
+<tr><td>iOS 8 (VoiceOver)</td><td>iBooks</td><td>Voice Over gère extrêmement mal les fichiers EPUB fixed-layout. Lit par défaut le nom des fichiers XHTML, le nombre de liens…</td><td>Indique le niveau du titre</td><td>Pas de différence</td><td>Annonce “retour à la ligne”</td><td>Pas de différence</td><td>Pas de différence</td><td>Prononcé sauf si l'image est le premier élément de la fausse page.</td><td>Ignoré</td><td>Ignoré</td><td class="ko">Bug : retour en arrière</td><td>Pas de différence</td><td>Ignoré</td><td>OK si xml:lang directement sur l'élément visé. Ne fonctionne pas si élément parent.</td><td class="ok" >OK dans tous les cas</td><td>Ignoré</td><td>Lu de gauche à droite (annonce nouvelle ligne)</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré (premier élément de la fausse page)</td><td>Prononce la lettre, une seule fois si c'est la même</td><td>Ignoré</td></tr>
+<tr><td></td><td>Kobo by Fnac</td><td>Fait un peu mieux qu'iBooks</td><td>Indique le niveau du titre</td><td>Pas de différence</td><td>Puce + numéro OK, indique début de la liste</td><td>Pas de différence</td><td>Pas de différence</td><td>Prononcé (mais annonce “image” à la fin description)</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Pas de différence</td><td>Ignoré</td><td>OK si xml:lang</td><td class="ok" >OK dans tous les cas</td><td>Ignoré</td><td>Lu de gauche à droite (annonce début tableau)</td><td>Ignoré</td><td>Ignoré</td><td>OK (mais annonce “image” à la fin)</td><td>Prononce la lettre, une seule fois si c'est la même</td><td>Ignoré</td></tr>
+<tr><td></td><td>Adobe Digital Editions</td><td class="ko">Inaccessible EPUB 2 (RMSDK Adobe)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Android 4.2.2 (Talkback)</td><td>Google Play Books</td><td>TTS français déclenché uniquement après avoir activé Talkback. Voix améliorée améliore à peine (apostrophes prononcés correctement)</td><td>ignoré</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Annoncé même si pas de texte alt</td><td>Lu</td><td>Lu</td><td class="ko">Bug : page blanche après</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré (+ texte japonais non lu)</td> <td class="ok">OK</td><td>Ignoré</td><td>Lu de gauche à droite</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>I prononcé comme lettre mais II prononcé “deux”</td><td>Ignoré</td></tr>
+<tr><td></td><td>FBReader + plugin</td><td>Talkback à peine amélioré</td><td>ignoré</td><td>Pas de différence</td><td>Énonce numéro liste ol</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré</td><td>Lu</td><td>Lu</td><td>Lu</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré (+ texte japonais non lu)</td> <td class="ok">OK</td><td>Ignoré</td><td>Ne supporte pas table</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>I prononcé comme lettre mais II prononcé “deux”</td><td>Ignoré</td></tr>
+<tr><td></td><td>Mantano Reader </td><td class="ko">Inaccessible EPUB 2 (RMSDK Adobe)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>Aldiko</td><td class="ko">Inaccessible EPUB 2 (RMSDK Adobe)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Mac OS 10.8 (VoiceOver)</td><td>Adobe Digital Editions</td><td>Se repose simplement sur l'outil intégré à l'OS (Voice Over) Nombres énoncés chiffre par chiffre</td><td>Ignoré</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré</td><td>Lu</td><td class="ko">Bug : page blanche après</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré (+ texte japonais pas lu)</td> <td class="ok">OK</td><td>Ignoré</td><td>Lu de gauche à droite</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Prononce la lettre, une seule fois si c'est la même</td><td>Ignoré</td></tr>
+<tr><td></td><td>Readium + ChromeVox</td><td class="ko">Bug : dès qu'on tourne la page, le TTS ne fonctionne plus…</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>Kindle</td><td class="ko" >Inaccessible ?</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Mac OS 10.9 (VoiceOver)</td><td>iBooks</td><td>Langue anglaise utilisée…</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>ADE</td><td>Se repose simplement sur l'outil intégré à l'OS (Voice Over) Nombres énoncés chiffre par chiffre</td><td>Ignoré</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré</td><td>Lu</td><td class="ko">Bug : page blanche après</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré (+ texte japonais pas lu)</td><td class="ok" >OK dans tous les cas</td><td>Ignoré</td><td>Lu de gauche à droite</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Prononce la lettre, une seule fois si c'est la même</td><td>Ignoré</td></tr>
+<tr><td>Mac OS 10.10 (VoiceOver)</td><td>iBooks</td><td>Nombres énoncés chiffre par chiffre</td><td>Indique le niveau du titre</td><td>Pas de différence</td><td>Prononce puce et numéro</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Premier mot lu</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré (+ texte japonais pas lu)</td><td class="ok" >OK dans tous les cas</td><td>Ignoré</td><td>Lu de gauche à droite</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Prononce la lettre, une seule fois si c'est la même</td><td>Ignoré</td></tr>
+<tr><td></td><td>ADE</td><td>Nombres énoncés chiffre par chiffre</td><td>Ignoré</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Premier mot lu</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré (+ texte japonais pas lu)</td><td class="ok" >OK dans tous les cas</td><td>Ignoré</td><td>Lu de gauche à droite</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Prononce la lettre, une seule fois si c'est la même</td><td>Ignoré</td></tr>
+<tr><td></td><td>Kindle</td><td class="ko" >Inaccessible ?</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Kindle Fire</td><td>Kindle</td><td>HD6 (dernière version Kindle OS)</td><td>Ignoré h1 pause h2 et h3</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré</td><td>Lu</td><td>Lu</td><td class="ko">Bug : 3 pages blanches après</td><td>Pas de différence</td><td>Ignoré</td><td>Ignoré (+texte japonais pas lu)</td><td>Ne supporte pas mais OK si lettres séparées par des points</td><td>Ignoré</td><td>Lu de gauche à droite</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Prononce la lettre, une seule fois si c'est la même</td><td>Ignoré</td></tr>
+	</body>
+</table>
+
+<h2>Section 1</h2>
+<table>
+
+	<colgroup class="lecteurs"><col/><col/></colgroup><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col />
+<thead>
+<tr><th>Plateforme</th><th>App</th><th>Trait d'union</th><th>Tiret incise</th><th>Tiret cadratin</th><th>Signe moins</th><th>Signe de division</th><th>Signe de multiplication</th><th>Signe plus</th><th>Signe égal</th><th>Fractions</th><th>Siècles (chiffres romains)</th><th>Signe plus ou moins</th><th>Signe infini</th><th>Signe alpha</th><th>Esperluette</th></tr>
+	</thead>
+	<tbody>
+<tr><td>iOS 8 (VoiceOver)</td><td>iBooks</td><td>Ignoré</td><td>Légère pause</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Ne supporte pas, lu “1 barre oblique 2” ou “Un Deux” quand unicode</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Prononcé “et”</td></tr>
+<tr><td></td><td>Kobo by Fnac</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Ne supporte pas, lu “1 barre oblique 2” ou “Un Deux” quand unicode</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Prononcé “et”</td></tr>
+<tr><td>Android (Talkback)</td><td>Google Play Books</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Prononcé “esperluette”</td></tr>
+<tr><td></td><td>FBReader + plugin</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Prononcé “esperluette”</td></tr>
+<tr><td>Mac OS 10.8 (VoiceOver)</td><td>Adobe Digital Editions</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>OK (sauf fausse fraction avec barre oblique)</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Ignoré</td><td>Prononcé “et”</td></tr>
+<tr><td></td><td>Readium + ChromeVox</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Mac OS 10.9 (VoiceOver)</td><td>iBooks</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>ADE</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré (bug)</td><td>Lu “pour cent”</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Ne supporte pas, lu “Un Deux”</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Prononcé “et”</td></tr>
+<tr><td>Mac OS 10.10 (VoiceOver)</td><td>iBooks</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>OK quand unicode</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Prononcé “et”</td></tr>
+<tr><td></td><td>ADE</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>OK quand unicode</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Prononcé “et”</td></tr>
+<tr><td>Kindle Fire</td><td>Kindle</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td><td>Lu “Signe de division”</td><td>Lu “Signe de multiplication”</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Ne supporte pas, lu “1 barre oblique 2”</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Prononcé “et”</td></tr>
+	</body>
+</table>
+
+<h2>Section 2</h2>
+<table>
+
+<colgroup class="lecteurs"><col/><col/></colgroup><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col /><col />
+<thead>	
+<tr><th>Plateforme</th><th>App</th><th>Liens</th><th>Noms de rois (Louis XVI)</th><th>italique</th><th>Emphase</th><th>Titre d'œuvre</th><th>Emphase forte (strong)</th><th>Numéro</th><th>Degré (celsius)</th><th>Trademark</th><th>Astérisque</th><th>Liens avec title</th><th>Signe plus grand que</th><th>Tiret (figure dash)</th><th>Fleuron</th><th>Texte caché (display)</th><th>Texte caché (visibility)</th><th>Texte caché (display+visibility)</th></tr>
+	</thead>
+	<tbody>
+<tr><td>iOS 8 (VoiceOver)</td><td>iBooks</td><td>Annonce lien (avec pause)</td> <td class="ok">OK</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>OK (sauf unicode)</td> <td class="ok">OK</td><td>Lu “symbole anglais de dépôt de marque”</td><td>Lu “étoile étoile étoile”</td><td>idem lien</td><td>Lu “supérieur”</td><td class="ko">Bug : considère dates comme un seul nombre</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td></tr>
+<tr><td></td><td>Kobo by Fnac</td><td>Annonce lien (avec pause)</td> <td class="ok">OK</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>OK (unicode en russe)</td> <td class="ok">OK</td><td>Lu “symbole anglais de dépôt de marque”</td><td>Lu “étoile étoile étoile”</td><td>Idem lien</td><td>Lu “supérieur”</td><td>Lu “séparateur”</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td></tr>
+<tr><td>Android (Talkback)</td><td>Google Play Books</td><td>Ignoré</td> <td class="ok">OK</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré (lu “n degré”)</td><td>OK (sauf unicode)</td> <td class="ok">OK</td><td>Lu “astérisque astérisque astérisque”</td><td>Ignoré</td><td>Lu “supérieur”</td><td>Pas supporté mais lu “à”</td><td>Ignoré</td><td>Lu</td><td>Lu</td><td>Lu</td></tr>
+<tr><td></td><td>FBReader + plugin</td><td>Ignoré</td> <td class="ok">OK</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré (lu “n degré”)</td><td>OK (sauf unicode)</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td><td>Lu “supérieur”</td><td>Pas supporté mais lu “à”</td><td>Ignoré</td><td>Lu</td><td>Lu</td><td>Lu</td></tr>
+<tr><td>Mac OS 10.8 (VoiceOver)</td><td>Adobe Digital Editions</td><td>Ignoré</td> <td class="ok">OK</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>OK (sauf unicode)</td><td>OK (sauf unicode)</td><td>Lu “marque déposée”</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td class="ko">Bug : considère dates comme un seul nombre</td><td>Ignoré</td><td>Ignoré</td><td>Lu</td><td>Ignoré</td></tr>
+<tr><td></td><td>Readium + ChromeVox</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Mac OS 10.9 (VoiceOver)</td><td>iBooks</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>ADE</td><td>Ignoré</td> <td class="ok">OK</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>OK (sauf unicode)</td><td>OK (sauf unicode)</td><td>Lu “marque déposée”</td><td>Ignoré</td><td>ignoré</td><td>Ignoré</td><td class="ko">Bug : considère dates comme un seul nombre</td><td>Ignoré</td><td>Ignoré</td><td>Lu</td><td>Ignoré</td></tr>
+<tr><td>Mac OS 10.10 (VoiceOver)</td><td>iBooks</td><td>Ignoré</td> <td class="ok">OK</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré (lu “n degré”) unicode = “signe numéro”</td> <td class="ok">OK</td><td>Lu “marque déposée”</td><td>Lu “étoile étoile étoile”</td><td>Ignoré</td><td>Ignoré</td><td>Lis chaque chiffre du nombre</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td></tr>
+<tr><td></td><td>ADE</td><td>Ignoré</td> <td class="ok">OK</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>OK (sauf unicode)</td><td>OK (sauf unicode)</td><td>Lu “symbole anglais de dépôt de marque”</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td class="ko">Bug : considère dates comme un seul nombre</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td></tr>
+<tr><td>Kindle Fire</td><td>Kindle</td><td>Ignoré</td><td>Lu “Louis icksvi”</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Pas de différence</td><td>Ignoré (unicode lu “no”)</td><td>OK (sauf unicode)</td><td>Lu “té-héme”</td><td>Ignoré mais pause</td><td>Ignoré</td><td>Lu “supérieur”</td><td>Ignoré</td><td>Ignoré mais pause</td><td>Lu</td><td>Lu</td><td>Lu</td></tr>
+	</body>
+</table>
+
+<h2>Section 3</h2>
+<table>
+
+<colgroup class="lecteurs"><col/><col/></colgroup><col /><col /><col />
+<thead>
+<tr><th>Plateforme</th><th>App</th><th>Source citation</th><th>Ligatures forcées</th><th>Parenthèses</th></tr>
+	</thead>
+	<tbody>
+<tr><td>iOS 8 (VoiceOver)</td><td>iBooks</td><td>Ignoré</td> <td class="ok">OK</td><td>Ignoré</td></tr>
+<tr><td></td><td>Kobo iOS</td><td>Ignoré</td><td>Pas supporté mais OK</td><td>Ignoré</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Android (Talkback)</td><td>Google Play Books</td><td>Ignoré</td> <td class="ok">OK</td><td>Ignoré</td></tr>
+<tr><td></td><td>FBReader + plugin</td><td>Ignoré</td> <td class="ok">OK</td><td>Ignoré</td></tr>
+<tr><td>Mac OS 10.8 (VoiceOver)</td><td>Adobe Digital Editions</td><td>Ignoré</td><td class="ko" >Mot prononcé sans la ligature</td><td>Ignoré</td></tr>
+<tr><td></td><td>Readium + ChromeVox</td><td></td><td></td><td></td></tr>
+<tr><td>Mac OS 10.9 (VoiceOver)</td><td>iBooks</td><td></td><td></td><td></td></tr>
+<tr><td></td><td>ADE</td><td>Ignoré</td><td class="ko" >Mot prononcé sans la ligature</td><td>Pause</td></tr>
+<tr><td>Mac OS 10.10 (VoiceOver)</td><td>iBooks</td><td>Ignoré</td><td class="ko" >Mot prononcé sans la ligature</td><td>Pause</td></tr>
+<tr><td></td><td>ADE</td><td>Ignoré</td><td class="ko" >Mot prononcé sans la ligature</td><td>Pause</td></tr>
+<tr><td>Kindle Fire</td><td>Kindle</td><td>Ignoré</td> <td class="ok">OK</td><td>Ignoré</td></tr>
+	</body>
+</table>
+
+<h2>Section 4</h2>
+<table>
+
+	<colgroup class="lecteurs"><col/><col/></colgroup><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/>
+	<thead>
+<tr><th>Plateforme</th><th>App</th><th>Pied de mouche</th><th>indice (sub)</th><th>exposant (sup)</th><th>Flèche (droite)</th><th>Flèche (dingbats)</th><th>Signe Euro</th><th>Signe Dollar</th><th>Signe Yen</th><th>Signe Livre Sterling</th><th>Signe environ</th><th>Emoji</th><th>Dièse</th><th>Signe “coché” (dingbats)</th><th>Pour cent</th><th>Pour mille</th><th>Pour dix mille</th><th>Interrobang</th><th>Seconde</th><th>Minute</th><th>Heures</th><th>Kilomètres</th></tr>
+	</thead>
+	<tbody>
+<tr><td>iOS 8 (VoiceOver)</td><td>iBooks</td><td>Ignoré</td><td class="ok" >OK (CO2 lu “dioxyde de carbone”)</td> <td class="ok">OK</td><td>OK (direction)</td><td>Ignoré</td> <td class="ok">OK</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td>OK ("presque égal")</td><td>OK (+ description)</td><td>Ignoré</td><td>Lu “coche”</td> <td class="ok">OK</td><td>Lu “signe de pour mille”</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td></tr>
+<tr><td></td><td>Kobo by Fnac</td><td>Ignoré</td><td class="nem" >OK (lu C.O.Deux)</td> <td class="ok">OK</td><td>OK (direction)</td><td>Ignoré</td> <td class="ok">OK</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td>OK ("presque égal")</td><td>OK (+ description)</td><td>Ignoré</td><td>Lu “coche”</td> <td class="ok">OK</td><td>Lu “signe de pour mille”</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td></tr>
+<tr><td>Android (Talkback)</td><td>Google Play Books</td><td>Ignoré</td><td class="nem" >OK (lu C.O.Deux)</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td>Ignoré</td> <td class="ok">OK</td><td>Lu “dièse”</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td><td>Lu “Un S”</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td></tr>
+<tr><td></td><td>FBReader + plugin</td><td></td><td class="ko">Bug (lu “co deux”)</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td>Ignoré</td><td>Lu “X X X X X”</td><td>Lu “mot dièse”</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td><td>Lu “Un S”</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td></tr>
+<tr><td>Mac OS 10.8 (VoiceOver)</td><td>Adobe Digital Editions</td><td>Ignoré</td><td class="ok" >OK (CO2 lu “dioxyde de carbone”)</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td></tr>
+<tr><td></td><td>Readium + ChromeVox</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Mac OS 10.9 (VoiceOver)</td><td>iBooks</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>ADE</td><td>Ignoré</td><td class="ok" >OK (CO2 lu “dioxyde de carbone”)</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td>OK ("presque égal")</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td></tr>
+<tr><td>Mac OS 10.10 (VoiceOver)</td><td>iBooks</td><td>Lu “pied de mouche”</td><td class="nem" >OK (Lu C.O.Deux)</td> <td class="ok">OK</td><td>OK (direction)</td><td>Ignoré</td> <td class="ok">OK</td><td class="nem" >OK (ordre écrit)</td><td class="nem" >OK (ordre écrit)</td><td class="nem" >OK (ordre écrit)</td><td>OK ("presque égal")</td><td>OK (+ description)</td><td>Lu “numéro”</td><td>Lu “coche”</td> <td class="ok">OK</td><td>Lu “signe de pour mille”</td><td>Lu “signe de pour dix mille”</td><td>Ignoré</td><td>Lu “Un S”</td><td>Lu “Un mine”</td><td>Lu “hache”</td><td>"Lu Kahém"</td></tr>
+<tr><td></td><td>ADE</td><td>Ignoré</td><td class="ok" >OK (CO2 lu “dioxyde de carbone”)</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td class="ok" >OK (bon ordre)</td><td>OK ("presque égal")</td><td>Pas supporté mais description</td><td>Ignoré</td><td>Lu “coche”</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td> <td class="ok">OK</td></tr>
+<tr><td>Kindle Fire</td><td>Kindle</td><td>Lu “pied de mouche”</td><td class="nem" >OK (lu C.O.Deux)</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td> <td class="ok">OK</td><td class="nem" >OK (ordre écrit)</td><td class="nem" >OK (ordre écrit)</td><td class="nem" >OK (ordre écrit)</td><td>Ignoré</td><td>Ignoré</td><td>Lu “dièse”</td><td>Ignoré</td> <td class="ok">OK</td><td>Ignoré</td><td>Ignoré</td><td>Ignoré</td><td>Lu “Un S”</td><td>Lu “Un mine”</td> <td class="ok">OK</td><td>Lu “Kahém”</td></tr>
+	</body>
+</table>
+
+
+ </section>
+ 
+</body>
+
+</html>
