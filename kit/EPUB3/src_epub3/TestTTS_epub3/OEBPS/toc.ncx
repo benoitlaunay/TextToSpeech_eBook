@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="urn:uuid:d7be2535-e967-4556-aa1d-58830bd08ec7" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Test Text-To-Speech</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Test Text-to-speech — Un fichier test pour la synthèse vocale</text>
+      </navLabel>
+      <content src="Text/Section001.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>Chapitre Premier</text>
+      </navLabel>
+      <content src="Text/Section009.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>Chapitre 1</text>
+      </navLabel>
+      <content src="Text/Section010.xhtml"/>
+      <navPoint id="navPoint-4" playOrder="4">
+        <navLabel>
+          <text>Mais encore</text>
+        </navLabel>
+        <content src="Text/Section010.xhtml#sigil_toc_id_1"/>
+        <navPoint id="navPoint-5" playOrder="5">
+          <navLabel>
+            <text>Et puis</text>
+          </navLabel>
+          <content src="Text/Section010.xhtml#sigil_toc_id_2"/>
+        </navPoint>
+        <navPoint id="navPoint-6" playOrder="6">
+          <navLabel>
+            <text>Aussi</text>
+          </navLabel>
+          <content src="Text/Section010.xhtml#display-visibility"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-7" playOrder="7">
+      <navLabel>
+        <text>Chapitre 2</text>
+      </navLabel>
+      <content src="Text/Section011.xhtml"/>
+      <navPoint id="navPoint-8" playOrder="8">
+        <navLabel>
+          <text>Tests images EPUB 2</text>
+        </navLabel>
+        <content src="Text/Section011.xhtml#sigil_toc_id_3"/>
+      </navPoint>
+      <navPoint id="navPoint-9" playOrder="9">
+        <navLabel>
+          <text>Tests images EPUB 3</text>
+        </navLabel>
+        <content src="Text/Section011.xhtml#sigil_toc_id_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-10" playOrder="10">
+      <navLabel>
+        <text>Chapitre 3</text>
+      </navLabel>
+      <content src="Text/Section012.xhtml#titre-image-title"/>
+    </navPoint>
+    <navPoint id="navPoint-11" playOrder="11">
+      <navLabel>
+        <text>Chapitre 4</text>
+      </navLabel>
+      <content src="Text/Section013.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-12" playOrder="12">
+      <navLabel>
+        <text>Chapitre 5</text>
+      </navLabel>
+      <content src="Text/Section014.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-13" playOrder="13">
+      <navLabel>
+        <text>Glossaire</text>
+      </navLabel>
+      <content src="Text/Section019.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-14" playOrder="14">
+      <navLabel>
+        <text>Bibliographie</text>
+      </navLabel>
+      <content src="Text/Section020.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-15" playOrder="15">
+      <navLabel>
+        <text>Index</text>
+      </navLabel>
+      <content src="Text/Section021.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

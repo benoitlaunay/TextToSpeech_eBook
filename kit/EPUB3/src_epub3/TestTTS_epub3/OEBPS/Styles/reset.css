@@ -1,0 +1,7 @@
+/* Reset pour assurer rétrocompatibilité ePub 2 */
+
+article, aside, figure, figcaption, footer, header, main, nav, section {
+	display: block;
+	font-size: 1em;
+	line-height: inherit;
+}

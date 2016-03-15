@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:d7be2535-e967-4556-aa1d-58830bd08ec7" />
+    <meta name="dtb:depth" content="3" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+  <docTitle>
+    <text>Test Text-To-Speech</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Test Text-to-speech</text>
+      </navLabel>
+      <content src="Text/Section0001.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>Chapitre premier</text>
+      </navLabel>
+      <content src="Text/Section0002.xhtml" />
+      <navPoint id="navPoint-3" playOrder="3">
+        <navLabel>
+          <text>Mais encore</text>
+        </navLabel>
+        <content src="Text/Section0002.xhtml#sigil_toc_id_1" />
+        <navPoint id="navPoint-4" playOrder="4">
+          <navLabel>
+            <text>Et puis</text>
+          </navLabel>
+          <content src="Text/Section0002.xhtml#sigil_toc_id_2" />
+        </navPoint>
+        <navPoint id="navPoint-5" playOrder="5">
+          <navLabel>
+            <text>Aussi</text>
+          </navLabel>
+          <content src="Text/Section0002.xhtml#display-visibility" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-6" playOrder="6">
+      <navLabel>
+        <text>Chapitre 2</text>
+      </navLabel>
+      <content src="Text/Section0003.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-7" playOrder="7">
+      <navLabel>
+        <text>Chapitre 3</text>
+      </navLabel>
+      <content src="Text/Section0004.xhtml#titre-image-title" />
+    </navPoint>
+    <navPoint id="navPoint-8" playOrder="8">
+      <navLabel>
+        <text>Chapitre 4</text>
+      </navLabel>
+      <content src="Text/Section0005.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-9" playOrder="9">
+      <navLabel>
+        <text>Chapitre 5</text>
+      </navLabel>
+      <content src="Text/Section0006.xhtml" />
+    </navPoint>
+  </navMap>
+</ncx>

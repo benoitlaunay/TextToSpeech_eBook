@@ -1,0 +1,130 @@
+*************************************************************
+ Amazon kindlegen(MAC OSX) V2.9 build 1028-0897292 
+ Un compilateur d'ebook en ligne de commande 
+ Copyright Amazon.com and its Affiliates 2014 
+*************************************************************
+
+Info:I9026:option: (caché) amazon créateur outil ou d'un pipeline
+Info:I9014:option: -verbose: Sortie Verbose
+Info(prcgen):I1048: Extraction du fichier ePub
+Info(prcgen):I1047: Métadonnées ajoutées dc:Title        "Test Text-To-Speech"
+Info(prcgen):I1047: Métadonnées ajoutées dc:Creator      "Jiminy Panoz"
+Info(prcgen):I1047: Métadonnées ajoutées dc:Publisher    "Chapal & Panoz"
+Info(prcgen):I1047: Métadonnées ajoutées dc:Subject      "accessibilité"
+Info(prcgen):I1047: Métadonnées ajoutées dc:Subject      "synthèse vocale"
+Info(prcgen):I1047: Métadonnées ajoutées dc:Subject      "unicode"
+Info(prcgen):I1047: Métadonnées ajoutées dc:Contributor  "Jiminy Panoz"
+Info(prcgen):I1047: Métadonnées ajoutées dc:Rights       "CC-BY-NC 3.0"
+Info(prcgen):I1047: Métadonnées ajoutées dc:Description  "Un fichier permettant de tester le text-to-speech de votre appareil de lecture."
+Info(prcgen):I1002: Analyse des fichiers  0000024
+Info(prcgen):I1003: Analyse du fichier     URL: Section001.xhtml
+Avertissement(htmlprocessor):W28004: La valeur absolue spécifiée pour la propriété CSS dans le contenu n'est pas supportée par les lecteurs Kindle. Veuillez utiliser % ou consulter les Directives de publication Kindle sur l'utilisation de propriété : 'line-height' Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Styles/reset.css
+Info(prcgen):I1003: Analyse du fichier     URL: Section002.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section003.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section004.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section005.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section006.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section007.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section008.xhtml
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <abbr title="Société nationale des chemins de fer français">
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Text/Section009.xhtml     ligne : 0000042
+Info(prcgen):I1003: Analyse du fichier     URL: Section009.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section010.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section011.xhtml
+Avertissement(htmlprocessor):W28001: Le style CSS spécifié dans le contenu n'est pas supporté par les lecteurs Kindle. Suppression de la propriété CSS : 'max-width' Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Text/Section011.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section012.xhtml
+Avertissement(inputpreprocessor):W29004: Tag ouvert fermé de force:  <header id="header">
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Text/Section013.xhtml     ligne : 0000018
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <abbr title="confer">
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Text/Section013.xhtml     ligne : 0000034
+Avertissement(inputpreprocessor):W29007: Le Tag inconnue est rejetée : <abbr title="c’est-à-dire">
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Text/Section013.xhtml     ligne : 0000034
+Info(prcgen):I1003: Analyse du fichier     URL: Section013.xhtml
+Avertissement(inputpreprocessor):W29004: Tag ouvert fermé de force:  <header>
+      Dans le fichier : /var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Text/Section014.xhtml     ligne : 0000018
+Info(prcgen):I1003: Analyse du fichier     URL: Section014.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section015.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section016.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section017.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section018.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section019.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section020.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section021.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section022.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: nav.xhtml
+Info(prcgen):I1003: Analyse du fichier     URL: Section023.xhtml
+Info(prcgen):I1015: Construction du fichier PRC
+Info(prcgen):I1006: Résolution des hyperliens
+Info(prcgen):I1010: Ecriture des hyperliens
+Info(prcgen):I1008: Résolution de l'emplacement de début de lecture
+Avertissement(prcgen):W14016: Couverture non spécifiée
+Info(prcgen):I1013: Conversion et fusion du fichier image "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Images/jacinabox.PNG"
+Info(prcgen):I1013: Conversion et fusion du fichier image "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Images/chap.png"
+Info(prcgen):I1014: Conversion et fusion du fichier média "/tmp/mbt-WgkJB07E0_3_F_D_D_A_D7_1126A_A447B000_A"
+Info(pagemap):I8000: Aucune carte de page trouvée dans le livre
+Info(prcgen/inflections):I1012: Compilation des inflexions
+Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000000 Nom de l'index : $NCX
+Info(prcgen):I1026: Index Unicode utilisant l'encodage utf-8
+Info(prcgen):I1045: Plages de calcul UNICODE utilisées dans le livre
+Info(prcgen):I1046: Plage UNICODE trouvée : Basic Latin [20..7E]
+Info(prcgen):I1046: Plage UNICODE trouvée : Latin-1 Supplement [A0..FF]
+Info(prcgen):I1046: Plage UNICODE trouvée : General Punctuation - Windows 1252 [2018..201A]
+Info(prcgen):I1046: Plage UNICODE trouvée : Latin Extended-A [100..17F]
+Info(prcgen):I1046: Plage UNICODE trouvée : Mathematical Operators [2200..22FF]
+Info(prcgen):I1046: Plage UNICODE trouvée : Basic Greek [370..3FF]
+Info(prcgen):I1046: Plage UNICODE trouvée : Letter-like Symbols [2100..214F]
+Info(prcgen):I1046: Plage UNICODE trouvée : General Punctuation - other than Windows 1252 [2000..2012]
+Info(prcgen):I1046: Plage UNICODE trouvée : Dingbats [2700..27BF]
+Info(prcgen):I1046: Plage UNICODE trouvée : CJK Unified Ideographs [4E00..9FFF]
+Info(prcgen):I1046: Plage UNICODE trouvée : Katakana [30A0..30FF]
+Info(prcgen):I1046: Plage UNICODE trouvée : Chinese, Japanese, and Korean (CJK) Symbols and Punctuation [3000..303F]
+Info(prcgen):I1046: Plage UNICODE trouvée : Arrows [2190..21FF]
+Info(prcgen):I1046: Plage UNICODE trouvée : Miscellaneous Symbols [2600..26FF]
+Info(prcgen):I1046: Plage UNICODE trouvée : Currency Symbols [20A0..20CF]
+Info(prcgen):I1017: Construction du fichier PRC, compte d'enregistrement :   0000005
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000000
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000001
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000002
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000003
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000004
+Info(prcgen):I1044: Taille d'enregistrement non compressé :   0004096
+Info(prcgen):I2001: Stats finales - TEXT:      000009500 bytes 000000005 enregistrements 
+Info(prcgen):I2002: Stats finales - PHOTOS:    000000000 bytes 000000000 enregistrements 
+Info(prcgen):I2003: Stats finales - INDEXES:   000000868 bytes 000000003 enregistrements 
+Info(prcgen):I2004: Stats finales - QUEUES:    000000037 bytes 000000005 enregistrements 
+Info(prcgen):I2005: Stats finales - CADRES:    000000088 bytes 000000002 enregistrements 
+Info(prcgen):I2006: Stats finales - AUTRE:     000398024 bytes 000000008 enregistrements 
+Info(prcgen):I2007: Stats finales - TOTAL:     000408517 bytes 000000018 enregistrements 
+Info(prcgen):I1039: Stats finales - texte compressé à (en % de la taille d'origine):  49.61%
+Info(prcgen):I1040: L'identifiant de document est : "Test_Text-To-Speech"
+Info(prcgen):I1041: La version de format de fichier est V6
+Info(prcgen):I1031: Sauvegarde du fichier PRC
+Info(prcgen):I1033: PRC construit avec des AVERTISSEMENTS!
+Info(prcgen):I1016: Construction du fichier PRC amélioré
+Info(prcgen):I1007: Résolution des liens mediaid
+Info(prcgen):I1011: Ecriture des liens mediaid
+Info(prcgen):I1009: Résolution des articles de guide
+Info(prcgen):I1014: Conversion et fusion du fichier média "/var/folders/4b/qbnwg6bd5dzcxsnpcx14kpsh0000gn/T/mobi-7tsHOs/OEBPS/Images/jacinabox.PNG"
+Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000000 Nom de l'index : $FRAG
+Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000003 Nom de l'index : $SKEL
+Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000005 Nom de l'index : $GUIDE
+Info(prcgen):I1019: Construction de l'index dans l'enregistrement  0000008 Nom de l'index : $NCX
+Info(prcgen):I1029: L'index de recherche par défaut est : "$FRAG"
+Info(prcgen):I1017: Construction du fichier PRC, compte d'enregistrement :   0000010
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000005
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000006
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000007
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000008
+Info(prcgen):I1018: Construction d'enregistrement de fichier PRC  0000009
+Info(prcgen):I2001: Stats finales - TEXT:      000017533 bytes 000000010 enregistrements 
+Info(prcgen):I2003: Stats finales - INDEXES:   000004380 bytes 000000011 enregistrements 
+Info(prcgen):I2004: Stats finales - QUEUES:    000000057 bytes 000000010 enregistrements 
+Info(prcgen):I2005: Stats finales - CADRES:    000000220 bytes 000000003 enregistrements 
+Info(prcgen):I2006: Stats finales - AUTRE:     000009062 bytes 000000003 enregistrements 
+Info(prcgen):I2007: Stats finales - TOTAL:     000031252 bytes 000000027 enregistrements 
+Info(prcgen):I1039: Stats finales - texte compressé à (en % de la taille d'origine):  46.26%
+Info(prcgen):I1041: La version de format de fichier est V8
+Info(prcgen):I1032: PRC construit avec succès
+Info(prcgen):I15000: Taille approximative de fichier livrable Mobi standard :  0000153KB
+Info(prcgen):I15001:  Taille approximative de fichier livrable KF8 :  0000164KB
+Info(prcgen):I1037: fichier Mobi construit avec des AVERTISSEMENTS!

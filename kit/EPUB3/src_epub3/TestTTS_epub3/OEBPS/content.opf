@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package prefix="rendition: http://www.idpf.org/vocab/rendition/# schema: http://schema.org/ ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId">
+<metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ibooks="http://apple.com/ibooks/html-extensions">
+<dc:identifier id="BookId">urn:uuid:d7be2535-e967-4556-aa1d-58830bd08ec7</dc:identifier>
+<dc:title id="t1">Test Text-To-Speech</dc:title>
+<meta property="title-type" refines="#t1">main</meta>
+<dc:creator id="create1">Jiminy Panoz</dc:creator>
+<meta scheme="marc:relators" property="role" refines="#create1">aut</meta>
+<meta property="file-as" refines="#create1">Panoz, Jiminy</meta>
+<dc:language>fr</dc:language>
+<dc:description>Un fichier permettant de tester le text-to-speech de votre appareil de lecture.</dc:description>
+<dc:rights>CC-BY-NC 3.0</dc:rights>
+<dc:publisher>Chapal &amp; Panoz</dc:publisher>
+<dc:subject>accessibilité</dc:subject>
+<dc:subject>synthèse vocale</dc:subject>
+<dc:subject>unicode</dc:subject>
+<dc:contributor id="contrib1">Jiminy Panoz</dc:contributor>
+<meta scheme="marc:relators" property="role" refines="#contrib1">ccp</meta>
+<meta property="file-as" refines="#contrib1">Panoz, Jiminy</meta>
+<dc:contributor id="contrib2">Jiminy Panoz</dc:contributor>
+<meta scheme="marc:relators" property="role" refines="#contrib2">mrk</meta>
+<meta property="file-as" refines="#contrib2">Panoz, Jiminy</meta>
+<meta property="dcterms:modified">2016-03-15T11:44:31Z</meta>
+
+	<meta property="ibooks:version">1.0</meta>
+	
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+<!--    <meta property="schema:accessibilityFeature">longDescription</meta>	-->
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">resizeText</meta>
+    <meta property="schema:accessibilityFeature">displayTransformability</meta>
+    <meta property="schema:accessibilityHazard">noFlashing</meta>
+    <meta property="schema:accessibilityHazard">noSound</meta>
+    <meta property="schema:accessibilityHazard">noMotionSimulation</meta>
+    <meta property="schema:accessibilityControl">fullTouchControl</meta>
+    <meta property="schema:accessibilityControl">fullMouseControl</meta>
+    <meta property="schema:accessibilityControl">fullKeyboardControl</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessibilityAPI">iOSAccessibility</meta>
+    <meta property="schema:accessibilityAPI">MacOSXAccessibility</meta>
+</metadata>
+<manifest>
+<item href="Text/Section001.xhtml" id="Section001.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section002.xhtml" id="Section002.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section003.xhtml" id="Section003.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section004.xhtml" id="Section004.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section005.xhtml" id="Section005.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section006.xhtml" id="Section006.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section007.xhtml" id="Section007.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section008.xhtml" id="Section008.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section009.xhtml" id="Section009.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section010.xhtml" id="Section010.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section011.xhtml" id="Section011.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section012.xhtml" id="Section012.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section013.xhtml" id="Section013.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section014.xhtml" id="Section014.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section015.xhtml" id="Section015.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section016.xhtml" id="Section016.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section017.xhtml" id="Section017.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section018.xhtml" id="Section018.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section019.xhtml" id="Section019.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section020.xhtml" id="Section020.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section021.xhtml" id="Section021.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section022.xhtml" id="Section022.xhtml" media-type="application/xhtml+xml" />
+<item href="Text/Section023.xhtml" id="Section023.xhtml" media-type="application/xhtml+xml" />
+<item href="Images/chap.png" id="chap.png" media-type="image/png" />
+<item href="Images/jacinabox.PNG" id="jacinabox.PNG" media-type="image/png" />
+<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+<item href="Styles/reset.css" id="reset.css" media-type="text/css" />
+<item id="navid" media-type="application/xhtml+xml" href="Text/nav.xhtml" properties="nav" />
+</manifest>
+<spine toc="ncx">
+<itemref idref="Section001.xhtml" />
+<itemref idref="Section002.xhtml" />
+<itemref idref="Section003.xhtml" />
+<itemref idref="Section004.xhtml" />
+<itemref idref="Section005.xhtml" />
+<itemref idref="Section006.xhtml" />
+<itemref idref="Section007.xhtml" />
+<itemref idref="Section008.xhtml" />
+<itemref idref="Section009.xhtml" />
+<itemref idref="Section010.xhtml" />
+<itemref idref="Section011.xhtml" />
+<itemref idref="Section012.xhtml" />
+<itemref idref="Section013.xhtml" />
+<itemref idref="Section014.xhtml" />
+<itemref idref="Section015.xhtml" />
+<itemref idref="Section016.xhtml" />
+<itemref idref="Section017.xhtml" />
+<itemref idref="Section018.xhtml" />
+<itemref idref="Section019.xhtml" />
+<itemref idref="Section020.xhtml" />
+<itemref idref="Section021.xhtml" />
+<itemref idref="Section022.xhtml" />
+<itemref idref="navid" />
+<itemref idref="Section023.xhtml" />
+</spine>
+</package>
