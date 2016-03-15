@@ -1,0 +1,41 @@
+body {
+  font-size: 96%; }
+
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+.ok {
+  background-color: rgba(65, 117, 5, 0.4);
+  text-align: center; }
+
+.ko {
+  background-color: rgba(208, 2, 27, 0.4); }
+
+.nem {
+  background-color: rgba(248, 231, 28, 0.4); }
+
+table {
+  border-collapse: collapse;
+  border:1px solid #ddd
+  }
+
+tbody tr:nth-child(2n) {
+  background-color: rgba(200, 200, 200, 0.4); }
+
+th {
+  border-bottom: 2px solid #aaa;
+  vertical-align: bottom;
+  background-color: rgba(2,88,126,.15);
+}
+
+td, th {
+  padding: .37rem; }
+
+.lecteurs {
+  border-right: 1px dotted #777;
+  }
+  
+  td:first-child + td {
+	  text-align: center;
+	  font-style: italic;
+  }
